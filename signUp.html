@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu's Profile</title>
+    <link rel="stylesheet" href="place.css">
+    <script src="place.js"></script>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: blue;
+        }
+        .group {
+            color: green;
+        }
+        #ok {
+            color: red;
+        }
+        .scroll-text {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+div {
+   outline: 2px solid orange;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class=".div">hello</div>
+    <header>
+        <h2>Bhanu's Blog</h2>
+        <nav>
+                <a href="place.html">Home</a>
+                <a href="place.css">About</a>
+                <a href="place.js">Contact</a>
+        </nav>
+    </header>
+     <main>
+    <article>
+      <h2>Why Semantic HTML Matters</h2>
+      <p>Semantic HTML makes your content meaningful...</p>
+    </article>
+
+    <aside>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">HTML Notes</a></li>
+        <li><a href="#">CSS Notes</a></li>
+      </ul>
+    </aside>
+  </main>
+<p draggable="true">Drag me anywhere!</p>
+<textarea spellcheck="true">Helloo wrld!</textarea>
+<p translate="yes">OpenAI</p>
+<button aria-label="Close Menu">✖</button>
+<marquee behavior="alternate" scrollamount="5">
+  Bouncing Text 🏀
+</marquee>
+<div class="scroll-text">This is scrolling text using CSS</div>
+  <footer>
+    <p>&copy; 2025 Bhanu Prasad. All rights reserved.</p>
+    <address>
+    Company Name Pvt. Ltd.<br>
+    Phone: +91-9876543210<br>
+    Email: <a href="mailto:support@company.com">support@company.com</a><br>
+    Hyderabad, Telangana, India
+  </address>
+  </footer>
+  <p contenteditable="true">You can edit this text.</p>
+  <div hidden>This content is hidden</div>
+<p lang="fr" dir="ltr">Bonjour le monde!</p>
+
+
+    <h1>Form</h1>
+    <form action="">
+        <label for="userName">Name:</label>
+        <input type="text" placeholder="Enter your name" id="userName" name="userName" required>
+        <br>
+        <label for="UserMail">EMail</label>
+        <input type="email" placeholder="Enter Your Mail" id="UserMail" name="UserMail" required>
+        <br>
+        <label for="Phone">Phone</label>
+        <input type="number" name="Phone" id="Phone" placeholder="Enter Your number" required>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Your Password" required>
+        <br>    
+        <label>Gender</label><br>
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">Male</label> <br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br>
+        <label for="study">Study</label><br>
+        <input type="checkbox" name="study" id="study" value="B.Tech">
+        <label for="study">B.Tech</label><br>
+        <input type="checkbox" name="study" id="study2" value="Intermediate">
+        <label for="study2">Intermediate</label><br>
+        <input type="checkbox" name="study" id="study3" value="SSC">
+        <label for="study3">SSC</label><br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br>
+        <label for="birthdate">DOB</label><br>
+        <input type="date" name="birth" id="birthdate">
+        <br>
+        <label for="time">Time</label><br>
+        <input type="time" name="time" id="time"><br>
+        <input type="submit" value="Submit" style="color:blue; background-color:yellow; border-radius:5px; border:2px solid black;">
+        <input type="textarea" name="comments" id="comments" placeholder="Enter your comments here" rows="4" cols="50"><br>
+    </form>
+    <h1>I am Bhanu Prasad Kuruva</h1>
+    <h2 class="group">I am from Kurnool</h2>
+    <h3 class="group" id="ok">I have just compleated my graduation</h3>
+    <h4 class="group">from Siddhartha Institute of Technology and Sciences</h4>
+    <h5 id="ok">Intrested in Web Devolopment</h5>
+    <h6 style="color:yellow">Did some projects</h6>
+    <p>My Skills are HTML, CSS, JS, Node.js, Express, SQLite, Python, DSA</p>
+    <b>I want to get a job as soon as possible to reduce burden on my parents.</b>
+    <br><strong> same as bold but it carries semantic meaning.This is so important text</strong><br>
+    <i>This is italic</i><br>
+    <em>This is emphasized text Same as italic but it carries semantic meaning</em>
+    <u>This is underlined text</u><br>
+    <mark>This is highlighted text by mark tag</mark>
+    <small>This is small text</small><br>
+    <ins>This is inserted text</ins><br>
+    <del>This is deleted text</del><br>
+    <sub>This is subscript text</sub><br>
+    <sup>This is superscript text</sup><br>
+    <h1>Order list with Alphabets</h1>
+    <ol type="A">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h1>Order list with numbers</h1>
+    <ol type="1">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h1>Order list with Roman numbers</h1>
+    <ol type="i">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h1>Order list with Alphabets</h1>
+    <ol type="a">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <h2>Unorder list</h2>
+    <ul type="disc">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <h2>Unorder list with circle</h2>
+    <ul type="circle">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <h2>Unorder list with square</h2>   
+    <ul type="square">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>  
+    </ul>
+    <h1>Table</h1>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>Branch</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Bhanu Prasad</td>
+            <td>517</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>538</td>
+            <td>CSE</td>
+        </tr>
+    </tbody>
+</table>
+<a href="tel:+916300898451">Call Me</a>
+<a href="https://mail.google.com/mail/u/0/#inbox">Mail Me</a>
+<h2>Image</h2>
+<img src="https://iso.500px.com/wp-content/uploads/2018/05/Blog-marketplace-getty500px-48429366-nologo-3000x2000.png" alt="Error in loading" width="500" height="300" >
+<audio controls>
+  <source src="https://preview-downloads.customer.envatousercontent.com/files/642416194/preview.mp3?response-content-disposition=attachment;filename=58903131_happy-kids-joyful_by_mdstocksoundexclusive_preview.mp3&Expires=2067684341&Signature=CkBnEyf8~gtTsqwAUk94v7PkB3abJNu1sDJV3J-XFvKS2~OQCl6O~2pUKddEaRhWwuH9wPxqiwsq7mIC27cR-gi4GlRZ~1tcTAKT476g3rroWrlnySxCTfDIrsAry41eyCWDnr9K~pjiZ-pvinuCROKYAlcePiQjnMKLYYDGeoht8noXxUQImRDaJ2OSbcNCFtJConpxPhInLjQp5kz-s~7xuwh22YlBW3wIxiQqAhcp08BcWB7jMYFgGVa4BHeUOHVpr2f41evJtj~O3ayfATpAtulyQugqRfDrtlMuaDux5eO3eLKqProqUDo8XyoYI8DDiTjNKGJ5nQuc8LxaJORYprbb9p~fcqUXvZ77rsl9OYjdxXJcAeA8DQ0XaoYwb1IKWX0~z17Tb61zjs1rBP-DUNRqNK4xYbqTcBq~OyhfLgCbXcEdD53vv0H8a080MIVTffwK39j4vi7BYJyq8lbRYHnIv2nSvMMCvVtFWeH5KSVezW-9aLTWxeuZjJq-Ke8aSlH8pigfQC99nx6ouq6cRB6MimZuu6BKHTb2gBhnYtXX0nB5m6L2MC-C1-uHPcx~P-cz~E-Ldlg8bLRdL9p~CSQg8AoYZU1C45kZEiFCMO-0dSucqD5CkuK~jLcGEO1VrfZW06KDMiS5h9gV3hnkgnjJvfdvPJce8Z8K7iA_&Key-Pair-Id=APKAJRP2AVKNFZOM4BLQ" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<video width="300" controls autoplay loop>
+  <source src="https://www.youtube.com/watch?v=Q1iskzwrcFU" type="video/mp4">
+  Your browser does not support this video format.
+</video>
+
+
+</body>
+</html>
